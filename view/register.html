@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Register</title>
+        <link rel="stylesheet" href="../view/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <h3 class="text-center">Register</h3>
+            <br>
+            <form class="" action="../controller/register.php" method="POST">
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input class="form-control" type="text" name="name" value="">
+                    <label for="email">Email: </label>
+                    <input class="form-control" type="email" name="email" value="">
+                    <label for="pass">Password: </label>
+                    <input class="form-control" type="password" name="pass" value="">
+                    <label for="email">Phone: </label>
+                    <input class="form-control" type="text" name="phone" value="">
+                    <label for="add">Address: </label>
+                    <input class="form-control" type="text" name="address" value="">
+                </div>
+                <div class="text-center">
+                    <button type="submit" name="button" class="btn btn-primary btn-lg">Submit</button>
+                </div>
+            </form>
+            <br>
+            <div class="text-center">
+                <a href="login.php">Have an account</a>
+            </div>
+        </div>
+    </body>
+    <script src="../view/js/bootstrap.js" charset="utf-8"></script>
+</html>
